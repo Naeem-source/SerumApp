@@ -4,7 +4,7 @@ import TradingViewWidget, { Themes } from 'react-tradingview-widget';
 const TVChartContainer: React.FC = () => (
   <div className="tradingview-chart">
     <TradingViewWidget
-      symbol={'SRM' + 'USDT'}
+      symbol= 'BINANCE:SRMUSDT'
       theme={Themes.DARK}
       withdateranges
       autosize
