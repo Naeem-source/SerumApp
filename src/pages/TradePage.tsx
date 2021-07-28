@@ -25,7 +25,7 @@ import CustomMarketDialog from '../components/CustomMarketDialog';
 import { notify } from '../utils/notifications';
 import { useHistory, useParams } from 'react-router-dom';
 import { nanoid } from 'nanoid';
-import { TVChartContainer } from '../components/TradingView';
+import TVChartContainer  from '../components/TradingView';
 
 const { Option, OptGroup } = Select;
 
@@ -160,7 +160,7 @@ function TradePageInner() {
           style={{ paddingLeft: 5, paddingRight: 5 }}
           gutter={16}
         >
-          <Col>
+          {/* <Col>
             <MarketSelector
               markets={markets}
               setHandleDeprecated={setHandleDeprecated}
@@ -168,7 +168,7 @@ function TradePageInner() {
               customMarkets={customMarkets}
               onDeleteCustomMarket={onDeleteCustomMarket}
             />
-          </Col>
+          </Col> */}
           {market ? (
             <Col>
               <Popover
