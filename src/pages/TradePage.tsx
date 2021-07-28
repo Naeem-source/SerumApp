@@ -160,7 +160,7 @@ function TradePageInner() {
           style={{ paddingLeft: 5, paddingRight: 5 }}
           gutter={16}
         >
-          {/* <Col>
+          <Col>
             <MarketSelector
               markets={markets}
               setHandleDeprecated={setHandleDeprecated}
@@ -168,7 +168,7 @@ function TradePageInner() {
               customMarkets={customMarkets}
               onDeleteCustomMarket={onDeleteCustomMarket}
             />
-          </Col> */}
+          </Col>
           {market ? (
             <Col>
               <Popover
